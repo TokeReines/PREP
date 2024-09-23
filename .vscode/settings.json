@@ -1,0 +1,136 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        ".pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*out": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true,
+        "**/.trunk/*notifications/": true
+    },
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "files.watcherExclude": {
+        "**/.trunk/*out": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*plugins/": true,
+        "**/.trunk/*notifications/": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnType": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "trunk.io"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "git.confirmSync": false,
+    "explorer.autoRevealExclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "mssql.connections": [
+        {
+            "server": "10.2.5.22,62361",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "mog",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Tricom",
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true
+        },
+        {
+            "server": "10.2.5.22,62361",
+            "database": "",
+            "authenticationType": "SqlLogin",
+            "user": "mog",
+            "password": "",
+            "emptyPasswordInput": false,
+            "savePassword": true,
+            "profileName": "Tricom2",
+            "encrypt": "Mandatory",
+            "trustServerCertificate": true,
+            "connectTimeout": 15,
+            "applicationName": "vscode-mssql"
+        }
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.startupEditor": "none",
+    "files.autoSaveDelay": 100,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "remote.SSH.configFile": "C:\\Users\\TokeEmilHeldboReines\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "mlrig1": "linux",
+        "16.16.63.204": "linux",
+        "mlflow-tracking": "linux",
+        "ku-gpu-1": "linux"
+    },
+    "trunk.showPreexistingIssues": false,
+    "notebook.lineNumbers": "on",
+    "window.zoomLevel": 1,
+    "[groovy]": {
+        "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "peacock.favoriteColors": [
+        {
+            "name": "Angular Red",
+            "value": "#dd0531"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#61dafb"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Svelte Orange",
+            "value": "#ff3d00"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        }
+    ],
+    "remote.autoForwardPortsSource": "hybrid",
+    "editor.detectIndentation": false,
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "gitlens.rebaseEditor.ordering": "asc",
+    "cloudcode.duetAI.project": "spherical-depth-297611",
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.jupyterCommandLineArguments": [
+        
+
+    ]
+}
